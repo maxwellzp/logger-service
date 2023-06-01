@@ -1,0 +1,34 @@
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go mod init log-service
+go: creating new go.mod: module log-service
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get go.mongodb.org/mongo-driver/mongo
+go: downloading go.mongodb.org/mongo-driver v1.11.6
+go: downloading github.com/golang/snappy v0.0.1
+go: downloading github.com/klauspost/compress v1.13.6
+go: downloading github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d
+go: downloading github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe
+go: downloading golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+go: downloading golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
+go: downloading github.com/xdg-go/scram v1.1.1
+go: downloading github.com/xdg-go/stringprep v1.0.3
+go: downloading github.com/xdg-go/pbkdf2 v1.0.0
+go: added github.com/golang/snappy v0.0.1
+go: added github.com/klauspost/compress v1.13.6
+go: added github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe
+go: added github.com/pkg/errors v0.9.1
+go: added github.com/xdg-go/pbkdf2 v1.0.0
+go: added github.com/xdg-go/scram v1.1.1
+go: added github.com/xdg-go/stringprep v1.0.3
+go: added github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d
+go: added go.mongodb.org/mongo-driver v1.11.6
+go: added golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
+go: added golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+go: added golang.org/x/text v0.3.7
+dev@dev-machine:/home/developer/go-microservices/logger-service$ 
+
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get go.mongodb.org/mongo-driver/mongo/options
+
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get github.com/go-chi/chi/v5
+go: added github.com/go-chi/chi/v5 v5.0.8
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get github.com/go-chi/chi/v5/middleware
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get github.com/go-chi/cors
+go: added github.com/go-chi/cors v1.2.1
