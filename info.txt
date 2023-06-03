@@ -34,3 +34,29 @@ dev@dev-machine:/home/developer/go-microservices/logger-service$ go get github.c
 go: added github.com/go-chi/cors v1.2.1
 
 sudo go run ./cmd/api
+
+https://grpc.io/docs/protoc-installation/
+https://github.com/protocolbuffers/protobuf/releases/tag/v3.20.3
+export PATH="$PATH:$HOME/go/bin"
+
+protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative logs.proto
+
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get google.golang.org/grpc
+go: downloading google.golang.org/grpc v1.55.0
+go: downloading golang.org/x/net v0.8.0
+go: downloading github.com/golang/protobuf v1.5.3
+go: downloading google.golang.org/protobuf v1.30.0
+go: downloading golang.org/x/sys v0.6.0
+go: downloading google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
+go: downloading golang.org/x/text v0.8.0
+go: added github.com/golang/protobuf v1.5.3
+go: upgraded golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 => v0.8.0
+go: upgraded golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 => v0.6.0
+go: upgraded golang.org/x/text v0.3.7 => v0.8.0
+go: added google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
+go: added google.golang.org/grpc v1.55.0
+go: added google.golang.org/protobuf v1.30.0
+dev@dev-machine:/home/developer/go-microservices/logger-service$ 
+
+dev@dev-machine:/home/developer/go-microservices/logger-service$ go get google.golang.org/protobuf
+
